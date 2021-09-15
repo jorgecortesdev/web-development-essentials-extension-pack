@@ -18,5 +18,6 @@ These are some of my favorite extensions for web development to make development
 ## For more information
 
 - [Github](https://github.com/jorgecortesdev/web-development-essentials-extension-pack)
+- [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jorgecortesdev.web-development-essentials-extension-pack)
 
 **Enjoy!**
