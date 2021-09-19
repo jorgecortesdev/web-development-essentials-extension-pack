@@ -1,6 +1,6 @@
 {
     "name": "web-development-essentials-extension-pack",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "jorgecortesdev",
     "displayName": "Web Development Essentials Extension Pack",
     "description": "A collection of extensions for web development.",
@@ -36,6 +36,7 @@
         "EditorConfig.EditorConfig",
         "naumovs.color-highlight",
         "mikestead.dotenv",
+        "esbenp.prettier-vscode",
         "thomascsd.vscode-readme-pattern",
         "codezombiech.gitignore",
         "eamodio.gitlens",
