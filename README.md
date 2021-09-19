@@ -18,6 +18,7 @@ These are some of my favorite extensions for web development to make development
 - [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) - Assists you in working with `.gitignore` files.
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)-Supercharges the Git capabilities built into Visual Studio Code.
 - [W3C Web Validator](https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator) - W3C Web Validator.
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - A basic spell checker that works well with camelCase code.
 
 ## For more information
 
