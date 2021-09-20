@@ -1,6 +1,6 @@
 {
     "name": "web-development-essentials-extension-pack",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "jorgecortesdev",
     "displayName": "Web Development Essentials Extension Pack",
     "description": "A collection of extensions for web development.",
@@ -41,6 +41,13 @@
         "codezombiech.gitignore",
         "eamodio.gitlens",
         "CelianRiboulet.webvalidator",
-        "streetsidesoftware.code-spell-checker"
+        "streetsidesoftware.code-spell-checker",
+        "christian-kohler.npm-intellisense",
+        "xabikos.JavaScriptSnippets",
+        "stylelint.vscode-stylelint",
+        "dbaeumer.vscode-eslint",
+        "aaron-bond.better-comments",
+        "PKief.material-icon-theme",
+        "Equinusocio.vsc-community-material-theme"
     ]
 }
