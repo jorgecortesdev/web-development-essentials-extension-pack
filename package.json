@@ -1,53 +1,53 @@
 {
-    "name": "web-development-essentials-extension-pack",
-    "version": "0.0.5",
-    "publisher": "jorgecortesdev",
-    "displayName": "Web Development Essentials Extension Pack",
-    "description": "A collection of extensions for web development.",
-    "galleryBanner": {
-        "color": "#1c7488",
-        "theme": "dark"
-    },
-    "icon": "logo.png",
-    "repository": {
-        "url": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack"
-    },
-    "homepage": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack",
-    "bugs": {
-        "url": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack/issues"
-    },
-    "keywords": [
-        "web development",
-        "essentials",
-        "extension pack",
-        "web development extension pack"
-    ],
-    "categories": [
-        "Extension Packs"
-    ],
-    "engines": {
-        "vscode": "^1.60.0"
-    },
-    "extensionPack": [
-        "formulahendry.auto-rename-tag",
-        "CoenraadS.bracket-pair-colorizer-2",
-        "ritwickdey.LiveServer",
-        "christian-kohler.path-intellisense",
-        "EditorConfig.EditorConfig",
-        "naumovs.color-highlight",
-        "mikestead.dotenv",
-        "esbenp.prettier-vscode",
-        "thomascsd.vscode-readme-pattern",
-        "codezombiech.gitignore",
-        "eamodio.gitlens",
-        "CelianRiboulet.webvalidator",
-        "streetsidesoftware.code-spell-checker",
-        "christian-kohler.npm-intellisense",
-        "xabikos.JavaScriptSnippets",
-        "stylelint.vscode-stylelint",
-        "dbaeumer.vscode-eslint",
-        "aaron-bond.better-comments",
-        "PKief.material-icon-theme",
-        "Equinusocio.vsc-community-material-theme"
-    ]
+  "name": "web-development-essentials-extension-pack",
+  "version": "1.0.0",
+  "publisher": "jorgecortesdev",
+  "displayName": "Web Development Essentials Extension Pack",
+  "description": "A collection of extensions for web development.",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#1c7488",
+    "theme": "dark"
+  },
+  "icon": "logo.png",
+  "repository": {
+    "url": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack"
+  },
+  "homepage": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack",
+  "bugs": {
+    "url": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack/issues"
+  },
+  "keywords": [
+    "web development",
+    "essentials",
+    "extension pack",
+    "web development extension pack"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "extensionPack": [
+    "formulahendry.auto-rename-tag",
+    "ritwickdey.LiveServer",
+    "christian-kohler.path-intellisense",
+    "EditorConfig.EditorConfig",
+    "naumovs.color-highlight",
+    "mikestead.dotenv",
+    "esbenp.prettier-vscode",
+    "thomascsd.vscode-readme-pattern",
+    "codezombiech.gitignore",
+    "eamodio.gitlens",
+    "CelianRiboulet.webvalidator",
+    "streetsidesoftware.code-spell-checker",
+    "christian-kohler.npm-intellisense",
+    "xabikos.JavaScriptSnippets",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
+    "aaron-bond.better-comments",
+    "Equinusocio.vsc-material-theme-icons",
+    "Equinusocio.vsc-material-theme"
+  ]
 }
