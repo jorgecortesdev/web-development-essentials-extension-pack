@@ -1,5 +1,8 @@
 # README
 
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/jorgecortesdev.web-development-essentials-extension-pack)](https://marketplace.visualstudio.com/items?itemName=jorgecortesdev.web-development-essentials-extension-pack)
+[![Visit Website](https://img.shields.io/badge/Visit-jorgecortes.dev-blue)](https://jorgecortes.dev?utm_source=vscode-marketplace&utm_medium=extension&utm_campaign=web-development-essentials-extension-pack&utm_content=badge)
+
 A collection of extensions for web development in VS Code.
 
 These are some of my favorite extensions for web development to make development easier and fun.
@@ -31,4 +34,8 @@ These are some of my favorite extensions for web development to make development
 - [Github](https://github.com/jorgecortesdev/web-development-essentials-extension-pack)
 - [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jorgecortesdev.web-development-essentials-extension-pack)
 
-**Enjoy!**
+## Learn More
+
+Check out my site for tutorials, and other open-source projects: [https://jorgecortes.dev](https://jorgecortes.dev?utm_source=vscode-marketplace&utm_medium=extension&utm_campaign=web-development-essentials-extension-pack&utm_content=readme-link) ✨
+
+**Happy coding 😎**

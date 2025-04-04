@@ -1,6 +1,10 @@
 {
   "name": "web-development-essentials-extension-pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "author": {
+    "name": "Jorge Cortés",
+    "url": "https://jorgecortes.dev?utm_source=vscode-marketplace&utm_medium=extension&utm_campaign=web-development-essentials-extension-pack&utm_content=author"
+  },
   "publisher": "jorgecortesdev",
   "displayName": "Web Development Essentials Extension Pack",
   "description": "A collection of extensions for web development.",
@@ -13,7 +17,7 @@
   "repository": {
     "url": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack"
   },
-  "homepage": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack",
+  "homepage": "https://jorgecortes.dev?utm_source=vscode-marketplace&utm_medium=extension&utm_campaign=web-development-essentials-extension-pack",
   "bugs": {
     "url": "https://github.com/jorgecortesdev/web-development-essentials-extension-pack/issues"
   },
