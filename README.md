@@ -34,6 +34,67 @@ These are some of my favorite extensions for web development to make development
 - [Github](https://github.com/jorgecortesdev/web-development-essentials-extension-pack)
 - [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jorgecortesdev.web-development-essentials-extension-pack)
 
+## Contributing
+
+Want to add your favorite extension to this pack or improve something? Follow these steps:
+
+### Clone the Project
+
+```bash
+git clone https://github.com/jorgecortesdev/web-development-essentials-extension-pack.git
+cd web-development-essentials-extension-pack
+```
+
+### Add Your Extension
+
+Open the `package.json` file and add your extension's identifier (e.g. `publisher.extension-id`) to the `extensionPack` array.
+
+Example:
+
+```json
+"extensionPack": [
+  "formulahendry.auto-rename-tag",
+  "yourpublisher.your-extension-id"
+]
+```
+
+### Generate a New `.vsix` File
+
+Install the [VSCE tool](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#getting-started-with-vsce):
+
+```bash
+npm install -g vsce
+```
+
+Then run:
+
+```
+vsce package
+```
+
+This will generate a .vsix file like web-development-essentials-extension-pack-1.0.1.vsix.
+Test the Extension Locally
+
+    Open VS Code.
+
+    Press Ctrl+Shift+P (or Cmd+Shift+P on macOS).
+
+    Run: Extensions: Install from VSIX...
+
+    Choose the .vsix file you just created.
+
+Submit a Pull Request
+
+    Fork the repo.
+
+    Create a new branch: git checkout -b add-my-extension
+
+    Make your changes and commit them.
+
+    Push to your fork: git push origin add-my-extension
+
+    Open a Pull Request from your forked branch to main.
+
 ## Learn More
 
 Check out my site for tutorials, and other open-source projects: [https://jorgecortes.dev](https://jorgecortes.dev?utm_source=vscode-marketplace&utm_medium=extension&utm_campaign=web-development-essentials-extension-pack&utm_content=readme-link) ✨
