@@ -72,28 +72,66 @@ Then run:
 vsce package
 ```
 
-This will generate a .vsix file like web-development-essentials-extension-pack-1.0.1.vsix.
-Test the Extension Locally
+This will generate a `.vsix` file like `web-development-essentials-extension-pack-1.0.1.vsix`.
 
-    Open VS Code.
+### Test the Extension Locally
 
-    Press Ctrl+Shift+P (or Cmd+Shift+P on macOS).
+#### Option 1: Using VS Code UI
 
-    Run: Extensions: Install from VSIX...
+1. Open VS Code.
+2. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS).
+3. Run: `Extensions: Install from VSIX...`
+4. Choose the `.vsix` file you just created.
 
-    Choose the .vsix file you just created.
+#### Option 2: Using the Command Line
 
-Submit a Pull Request
+From the project directory, run:
 
-    Fork the repo.
+```bash
+code --install-extension web-development-essentials-extension-pack-1.0.1.vsix
+```
 
-    Create a new branch: git checkout -b add-my-extension
+To uninstall the extension pack:
 
-    Make your changes and commit them.
+```bash
+code --uninstall-extension web-development-essentials-extension-pack-1.0.1.vsix
+```
 
-    Push to your fork: git push origin add-my-extension
+### Submit a Pull Request
 
-    Open a Pull Request from your forked branch to main.
+If you want to share your work with the rest of us and make this extension pack even greater, please submit a pull request.
+
+Here’s how:
+
+1. **Fork and Clone the Repository**
+
+   - Click the **Fork** button at the top right of the [GitHub repo](https://github.com/jorgecortesdev/web-development-essentials-extension-pack).
+   - Then clone your forked copy:
+
+     ```bash
+     git clone https://github.com/your-username/web-development-essentials-extension-pack.git
+     cd web-development-essentials-extension-pack
+     ```
+
+2. **Create a New Branch**
+   ```bash
+   git checkout -b add-my-extension
+   ```
+3. **Make Your Changes**<br>
+   Edit package.json to add your extension to the extensionPack array.
+4. **Commit Your Changes**
+   ```bash
+   git commit -m "Add [extension-name] to the pack"
+   ```
+5. **Push to Your Fork**
+   ```bash
+   git push origin add-my-extension
+   ```
+6. **Open a Pull Request**<br>
+   Go to your fork on GitHub and click **"Compare & pull request"**. Submit it against the `main` branch of this repository.
+   Please provide a brief summary explaining why you're suggesting the extension and how it benefits the pack.
+
+All contributions are welcome!
 
 ## Learn More
 
